@@ -18,6 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1EJ-ey-Tp1">
+                                <rect key="frame" x="40" y="269" width="520" height="64"/>
+                                <string key="text">You are born with 300 bones; by the time you are an adult you will have 206.You are born with 300 bones; by the time you are an adult you will have 206.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdS-Tw-twL">
                                 <rect key="frame" x="40" y="480" width="520" height="40"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -30,23 +37,30 @@
                                     <action selector="showFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="F09-5Z-n73"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1EJ-ey-Tp1">
-                                <rect key="frame" x="40" y="268" width="520" height="65"/>
-                                <string key="text">You are born with 300 bones; by the time you are an adult you will have 206.You are born with 300 bones; by the time you are an adult you will have 206.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BF6-ml-z7e">
+                                <rect key="frame" x="40" y="127" width="118" height="22"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="gdS-Tw-twL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="3eW-3k-Vo3"/>
+                            <constraint firstItem="BF6-ml-z7e" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="107" id="547-3n-Nwy"/>
                             <constraint firstItem="1EJ-ey-Tp1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Qz8-MP-PJ4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1EJ-ey-Tp1" secondAttribute="trailing" constant="20" id="dkI-eo-l5h"/>
+                            <constraint firstItem="1EJ-ey-Tp1" firstAttribute="top" secondItem="BF6-ml-z7e" secondAttribute="bottom" constant="120" id="gsu-u9-7RH"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gdS-Tw-twL" secondAttribute="bottom" constant="80" id="lI4-gb-AeI"/>
                             <constraint firstItem="1EJ-ey-Tp1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="mSN-Tf-lvk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gdS-Tw-twL" secondAttribute="trailing" constant="20" id="orM-u0-bxK"/>
+                            <constraint firstItem="BF6-ml-z7e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="zWr-yt-zCs"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="gsu-u9-7RH"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="funFactLabel" destination="1EJ-ey-Tp1" id="jQv-5Y-bv3"/>
