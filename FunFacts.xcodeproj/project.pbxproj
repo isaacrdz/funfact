@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1401F9FA1C5A779A006CBDAE /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1401F9F91C5A779A006CBDAE /* FactModel.swift */; };
+		1401F9FC1C5BD78A006CBDAE /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1401F9FB1C5BD78A006CBDAE /* ColorModel.swift */; };
 		14EED1E41C5941550001B048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EED1E31C5941550001B048 /* AppDelegate.swift */; };
 		14EED1E61C5941550001B048 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EED1E51C5941550001B048 /* ViewController.swift */; };
 		14EED1E91C5941550001B048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14EED1E71C5941550001B048 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		1401F9F91C5A779A006CBDAE /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		1401F9FB1C5BD78A006CBDAE /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 		14EED1E01C5941550001B048 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14EED1E31C5941550001B048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14EED1E51C5941550001B048 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				14EED1EC1C5941550001B048 /* LaunchScreen.storyboard */,
 				14EED1EF1C5941550001B048 /* Info.plist */,
 				1401F9F91C5A779A006CBDAE /* FactModel.swift */,
+				1401F9FB1C5BD78A006CBDAE /* ColorModel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				1401F9FA1C5A779A006CBDAE /* FactModel.swift in Sources */,
 				14EED1E61C5941550001B048 /* ViewController.swift in Sources */,
 				14EED1E41C5941550001B048 /* AppDelegate.swift in Sources */,
+				1401F9FC1C5BD78A006CBDAE /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
